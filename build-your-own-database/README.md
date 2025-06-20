@@ -1,10 +1,10 @@
-# 💾 Build Your Own Database (Key-Value Store)
+# Build Your Own Database (Key-Value Store)
 
 This project implements a lightweight, JSON-backed database using a Python class. It mimics the structure of systems like Redis or early document stores and demonstrates the logic behind Create/Read/Update/Delete operations and persistent storage.
 
 ---
 
-## 📌 What It Does
+## What It Does
 
 - Stores records as a dictionary in memory
 - Persists to a `.json` file on disk
@@ -17,10 +17,10 @@ This project implements a lightweight, JSON-backed database using a Python class
 
 ---
 
-## 🧠 Healthcare System Context
+## Healthcare System Context
 
 **Digital Twin Example:**  
-You’re running a brain perfusion simulation and want to log:
+Running a brain perfusion simulation and want to log:
 
 ```json
 {
@@ -36,21 +36,21 @@ This mini-DB helps you:
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 ```bash
 cd src/
 python main.py
 ```
 
-You can run and test operations like:
+Can run and test operations like:
 - Create two records
 - Read/update/delete them
 - View stored values in `data.json`
 
 ---
 
-## 🗂️ File Structure
+## File Structure
 
 - `src/main.py`: Database logic and sample usage
 - `data.json`: Auto-created file that stores all records
@@ -59,7 +59,7 @@ You can run and test operations like:
 
 ---
 
-## 👩🏾‍⚕️ Author
+## Author
 
 **Ihunna Amugo**  
 DDS Candidate | MHA | MS | REHS | PhD(c) Computational Engineering  
